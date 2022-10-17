@@ -1,0 +1,649 @@
+@font-face{
+    font-family: 'Poppings';
+    src: url('../font/Poppins-Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings';
+}
+
+/* Menu ---------------*/
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    height: 52px;
+    margin: 1rem auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;;
+}
+
+header nav ul li {
+    display: flex;
+    margin-left: 32px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+header nav ul li:last-child{
+    color: #F58A07;
+    background: rgb(245, 138, 7, 0.1);
+    padding: 10px 25px;
+    border-radius: 31px;
+}
+
+/* Hero Section --------------*/
+.hero {
+    background: #DCEAF5;
+}
+
+.whole{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1;
+    max-width: 1280px;
+    margin: 1rem auto;
+}
+
+.hero1 .top-1 h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.hero1 .top-1 p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px; 
+}
+
+.top-2 {
+    margin-top: 50px;
+    margin-bottom: 15%;
+}
+
+.hero1 .top-2 .link1{
+    color: #FFFFFF;
+    background: #F58A07;
+    border-radius: 27px;
+    line-height: 17.04px;
+    padding: 20px 30px;
+    margin-right: 40px;
+}
+
+.hero1 .top-2 .link2{
+    font-weight: 600;
+    line-height: 17.04px;
+}
+
+.hero1 .top-3 p{
+    color: #394149;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+.hero1 .top-3 .logo {
+    margin-right: 20px;
+}
+
+.hero2 .human {
+
+    /* background-position-x: bottom; */ /* zurgaa joohon doshoogoo bolgoh */
+}
+
+
+/* Section1 -------------*/
+.section1 {
+    max-width: 1280px;
+    margin: 3rem auto;
+}
+
+.ST-1 {
+    margin: 96px 50% 10px 0;
+}
+
+.ST-1 h2{
+    color: #1D3444;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+}
+
+.ST-1 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 27px;
+    
+}
+
+.ST-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0 10px 0;
+}
+
+.ST-2 .inside-1 {
+    margin: 20px;
+}
+
+.ST-2 .inside-1 .img-1{
+    width: 399px;
+    height: 242px;
+    border-radius: 20px;
+}
+
+.ST-2 .inside-1 .size{
+    color: #0D1317;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25.56px;
+    margin: 20px 0;
+}
+
+.ST-2 .inside-1 p{
+    color: #5B5B5B;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ST-2 .inside-1 a {
+    color: #F58A07;
+    font-weight: 500;
+    line-height: 17.04px;
+}
+
+.inside-1 a::after{
+    content: "\2192";
+    margin-left: 10px;
+}
+
+/* Section 2 ---------*/
+.section2 {
+    background: #EDF7FF;
+}
+
+.ST {
+    max-width: 1280px;
+    height: 600px;
+    margin: 1rem auto;
+    
+}
+
+.AT-1{
+    display: flex;
+    flex: 1;
+    margin-bottom: 88px;
+}
+
+.AT-1 .maa1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 96px; 
+    margin-right: 40px;
+}
+
+.AT-1 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 96px; 
+}
+
+.AT-2{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.AT-2 .inside-2{
+    width: 401px;
+    height: 277px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.inside-2 .icon{
+    margin: 48px 0  32px 39px;
+}
+
+.inside-2 .maa2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.56px;
+    margin: 0 255px 20px 39px;
+    color: #0D1317;
+}
+
+.inside-2 p {
+    color: #5B5B5B;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 39px;
+    margin-right: 26px;
+}
+
+/* Section3 ---------*/
+.section3 {
+    display: flex;
+    flex: 1;
+    max-width: 1280px;
+    height: 667px;
+    margin: 1rem auto;   
+}
+
+.AA {
+    display: flex;
+    margin: 10% 0;
+}
+.kat1 .maa3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 596px;
+    height: 157px;
+    margin: 50px 0;
+}
+
+.kat1 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 510px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.kat2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kat2 .inside-3 .maa4{
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 50px;
+    color: #F58A07;
+    margin-bottom: 20px;
+}
+
+.inside-3 .maa5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.56px;
+    color: #0D1317;
+    margin-bottom: 30px;
+}
+
+.inside-3 p{
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.T2 { 
+ 
+}
+.T2 .woman{
+    width: 640px;
+    height: 667px;
+    background: url(../images/about-image.png);
+    border-radius: 20px;
+    /* enig zurgiin taliig ni ungut bolgoh*/
+}
+.T2 .color{
+    background-color: #F58A07;
+}
+
+
+
+/* Section4 --------*/
+.section4{
+    max-width: 1280px;
+    height: 698px;
+    margin: 1rem auto;
+}
+
+.section4 .whole1{
+    background:#EDF7FF url(../images/Ribbon.png) right top no-repeat; /* yaaj eniig joohon gadagshaa ni gargah uu */
+    width: 1280px;
+    margin: 20% 0;
+    padding: 48px 48px;
+    border-radius: 20px;
+}
+
+.inside-4{
+    display: flex;
+    margin-bottom: 80px;;
+}
+
+.inside-4 .in{
+    color: #f58A07;
+    background: #FFFFFF;
+    padding: 8px 24px;
+    margin-right: 30px;
+    border-radius: 31px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.inside-4 .in-1{
+    color: rgba(6, 5, 85, 0.3);
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    padding: 8px 24px;
+    margin: 0 24px;
+}
+
+.inside-5 {
+    display: flex;
+    flex: 1;
+}
+
+.inside-5 .kaa1{
+    width: 572px;
+    height: 395px;
+    margin-right: 140px;
+}
+
+.inside-5 .in-2{
+    color: #0D1317;
+    font-size: 48px;
+    font-weight: 600px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.inside-5 .in-3{
+    color: #5B5B5B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 8%;
+}
+
+.inside-5 a{
+    color: #F58A07;
+    font-weight: 500;
+    line-height: 17.04px;
+}
+
+.kaa2 {
+    background: #F58A07 url(../images/team.png); /* yaj ene zurgiin taliig uur ungutei boloh uu */
+    mix-blend-mode: multiply;
+
+}
+
+/* Section 5 ------------*/
+.section5 {
+    max-width: 1280px;
+    height: 740px;
+    margin: 1rem auto;
+}
+
+.whole2{
+    display: flex;
+    flex: 1; 
+    height: 518px;
+    margin: 10% 0;
+}
+
+.inside-6 .half-human{
+    width: 640px;
+    height: 518px;
+}
+
+.inside-7 {
+    height: 518px;
+    background: #F58A07;
+    /* ene background iig ni yaj urt bolgoh uu */
+}
+
+.inside-7 p{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    margin: 128px 0 59px 128px;
+}
+
+.inside-7 a {
+    color: #F58A07;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    font-weight: 600;
+    line-height: 17.04px;
+    margin: 0 0 0 128px;
+    border-radius: 31px;
+}
+
+/* Section 6 ----------*/
+.section6{
+    max-width: 1280px;
+    height: 740px;
+    margin: 1rem auto;
+}
+
+.whole3{
+    display: flex;
+    flex: 1;
+}
+
+
+.inside-8 .on1{
+    color: #0D1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 10% 0 24px 0;
+}
+
+.inside-8 p{
+    color: #5B5B5B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 110px 40px 0;
+}
+
+.car{
+    display: flex;
+}
+
+.woman2{
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+}
+
+.car1 .on2 {
+    color: #063255;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41.04px;
+    margin-bottom: -1%;
+}
+
+.car1 .on3{
+    color: #F58A07;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.78px;
+}
+.section9{
+    position: relative;
+}
+
+.play-icon{
+    position: absolute;
+    left: 730px;
+    top: 5180px;
+    width: 51px;
+    height: 51px;
+    background: #FFFFFF;
+    padding: 17px;
+    border-radius: 30px;
+}
+
+/* Section 7 --------------*/
+.section7{
+    background: #DCEAF5;
+}
+
+.whole4{
+    max-width: 1280px;
+    height: 790px;
+    margin: 1rem auto;
+}
+
+.inside-10 p{
+    color: #0D1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    padding: 96px 0 64px 0;
+}
+
+.inside-11{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PO{
+    width: 400px;
+    height: 507px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.PO .post{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.PO .pot{
+    color: #0D1317;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 32px;
+}
+
+.PO .pot1{
+    color: #5B5B5B;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0px 32px 20px 32px;
+}
+
+.PO a{
+    color: #F58A07;
+    font-weight: 500;
+    line-height: 17.04px;
+    margin-left: 32px;
+}
+
+.PO a:after{
+    content: "\2192";
+    margin-left: 10px;
+}
+
+/* Footer----------*/
+footer {
+    background: #063255;
+}
+
+.whole5{
+    max-width: 1280px;
+    height: 463px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    color: #FFFFFF;
+}
+
+.part1{
+    margin-right: -220px;
+}
+.part1 .p1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 351px;
+    height: 88px;
+    margin: 32px 0;
+}
+
+.part1 .icons1{
+    padding: 0 23px 84px 0;
+}
+
+.part1 .p2{
+    font-weight: 500;
+    line-height: 24px;
+}
+.part2{
+    margin-right: -170px;
+}
+.part2 .p3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 26px;
+}
+
+.part2 .p4{
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.part3{ 
+    margin-right: -170px;
+}
+
+.part3 .p5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 26px;
+}
+
+.part3 .p6{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.part4 .p7{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.part4 a{
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 18px 32px;
+}
+
+.part4 .inside-12{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 104px;
+}
