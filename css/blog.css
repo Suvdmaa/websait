@@ -22,7 +22,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    align-items: center;;
+    align-items: center;
 }
 
 header nav ul li {
@@ -69,6 +69,7 @@ main{
     line-height: 32px;
     opacity: 0.87;
     margin: 0 10px 30px 10px;
+    opacity: 0.87;
 }
 
 .b1{
@@ -97,6 +98,7 @@ main{
     border-radius: 20px;
 }
 /* Section ----------------*/
+
 .whole1{
     max-width: 1280px;
     margin: 1rem auto;
@@ -119,7 +121,7 @@ main{
     background: #EDF7FF;
     width: 400px;
     height: 530px;
-    margin: 0 20px 20px 0;
+    margin: 0 23px 30px 0;
     border-radius: 20px;
 }
 
@@ -162,11 +164,19 @@ footer {
 .whole5{
     max-width: 1280px;
     height: 463px;
-    margin: auto; 
-    display: flex;
-    justify-content: space-between; 
-    padding: 80px 0 ; 
+    margin: auto;
     color: #FFFFFF;
+}
+
+.TOP{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.BOT{
+    display: flex;
+    justify-content: space-between;
 }
 
 .part1 .p1{
@@ -230,4 +240,21 @@ footer {
     right: 0;
     z-index: 1;
     border-radius: 20px 0px 0px 20px;
+}
+
+#email{
+    padding: 18px 188px 18px 32px;
+    border-radius: 31px;
+}
+
+button{
+    padding: 18px 32px;
+    border-radius: 31px;
+    color: #FFFFFF;
+    background: #F58A07;
+    margin-top: 20px;
+}
+
+span{
+    margin-right: 32px;
 }
