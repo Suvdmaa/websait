@@ -32,6 +32,11 @@ header nav ul li {
     line-height: 24px;
 }
 
+header nav ul li a{
+    text-decoration: none;
+    color: #394149;
+}
+
 header nav ul li:last-child{
     color: #F58A07;
     background: rgb(245, 138, 7, 0.1);
@@ -61,7 +66,6 @@ main{
 .sm-1{
     color: #5B5B5B;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
     margin-bottom: 32px;
     margin-right: 154px;
@@ -76,11 +80,6 @@ main{
 
 .in-2{ 
     position: relative;
-}
-
-.in-2 .img-1{
-    width: 616px;
-    height: 650px;
 }
 
 /* Section ---------*/
@@ -117,7 +116,6 @@ main{
 .sm{
     color: #5B5B5B;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
     margin-bottom: 24px;
 }
@@ -135,7 +133,6 @@ main{
 
 .whole3{
     display: flex;
-    flex: 1;
 }
 
 .inside-8 .on1{
@@ -150,7 +147,6 @@ main{
 .inside-8 p{
     color: #5B5B5B;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
     margin: 0 110px 40px 0;
 }
@@ -160,7 +156,6 @@ main{
 }
 
 .woman2{
-    width: 80px;
     height: 80px;
     margin-right: 24px;
 }
@@ -168,7 +163,6 @@ main{
 .car1 .on2 {
     color: #063255;
     font-size: 24px;
-    font-weight: 500;
     line-height: 41.04px;
     margin-bottom: -1%;
 }
@@ -176,7 +170,6 @@ main{
 .car1 .on3{
     color: #F58A07;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30.78px;
 }
 
@@ -202,26 +195,24 @@ main{
     top: 83%;
     font-size: 18px;
     line-height: 18.32px;
-    font-weight: 600;
 }
 
 /* Section 7 --------------*/
 .section7{
     background: #DCEAF5;
-    padding-bottom: 5%;
-}
+    }
 
 .whole4{
     max-width: 1280px;
-    margin: 3rem auto;
+    margin: auto;
+    padding: 8% 0;
 }
 
 .inside-10 p{
     color: #0D1317;
     font-size: 48px;
-    font-weight: 600;
     line-height: 56px;
-    padding: 96px 0 64px 0;
+    padding-bottom: 64px;
 }
 
 .inside-11{
@@ -243,23 +234,18 @@ main{
 .PO .pot{
     color: #0D1317;
     font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
     padding: 32px;
 }
 
 .PO .pot1{
     color: #5B5B5B;
-    font-weight: 500;
     line-height: 28px;
-    margin: 0px 32px 20px 32px;
+    padding: 0px 32px 20px 32px;
 }
 
 .PO a{
     color: #F58A07;
-    font-weight: 500;
-    line-height: 17.04px;
-    margin-left: 32px;
+    padding-left: 32px;
 }
 
 .PO a:after{
@@ -293,10 +279,8 @@ footer {
 
 .part1 .p1{
     font-size: 36px;
-    font-weight: 600;
     line-height: 44px;
     width: 351px;
-    height: 88px;
     margin: 32px 0;
 }
 
@@ -304,32 +288,13 @@ footer {
     padding: 0 23px 84px 0;
 }
 
-.p2{
-    font-weight: 500;
-    line-height: 24px;
-}
-
 .p3{
     font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
     margin-bottom: 26px;
 }
 
 .p4{
-    font-weight: 500;
-    line-height: 24px;
     padding-bottom: 16px;
-}
-
-.part4 a{
-    background: #F58A07;
-    border-radius: 31px;
-    padding: 18px 32px;
-}
-
-.inside-12{
-    margin-top: 104px;
 }
 
 .box1{

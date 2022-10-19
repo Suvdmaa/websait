@@ -31,6 +31,10 @@ header nav ul li {
     font-weight: 600;
     line-height: 24px;
 }
+header nav ul li a{
+    text-decoration: none;
+    color: #394149;
+}
 
 header nav ul li:last-child{
     color: #F58A07;
@@ -48,6 +52,7 @@ main{
 
 .main1{
     margin: auto;
+    padding-right: 107px; 
 }
 
 .b{
@@ -56,17 +61,14 @@ main{
     font-weight: 600;
     line-height: 72px;
     letter-spacing: -0.03em;
-    margin-right: 46px;
     margin-bottom: 24px;
 }
 
 .sm{
     color: #5B5B5B;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
-    margin-right: 107px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .ra{
@@ -99,7 +101,7 @@ main{
     margin: 8rem auto;
 }
 
-.pop{
+.b1{
     color: #0D1317;
     font-size: 48px;
     font-weight: 600;
@@ -120,7 +122,6 @@ main{
 .b2{
     color: #0D1317;
     font-size: 24px;
-    font-weight: 500;
     line-height: 30px;
     margin-bottom: 8px;
 }
@@ -128,7 +129,6 @@ main{
 .sm1{
     color: #394149;
     font-size: 18px;
-    font-weight: 500;
     line-height: 28px;
     opacity: 0.6;
     margin-bottom: 32px;
@@ -139,25 +139,25 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 19.17px;
+    text-decoration: none;
 }
 
-/* Section 7 --------------*/
+/* Section 7 ----------------------------------*/
 .section7{
     background: #DCEAF5;
-    padding-bottom: 5%;
-}
+    }
 
 .whole4{
     max-width: 1280px;
-    margin: 1rem auto;
+    margin: auto;
+    padding: 8% 0;
 }
 
 .inside-10 p{
     color: #0D1317;
     font-size: 48px;
-    font-weight: 600;
     line-height: 56px;
-    padding: 96px 0 64px 0;
+    padding-bottom: 64px;
 }
 
 .inside-11{
@@ -179,23 +179,18 @@ main{
 .PO .pot{
     color: #0D1317;
     font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
     padding: 32px;
 }
 
 .PO .pot1{
     color: #5B5B5B;
-    font-weight: 500;
     line-height: 28px;
-    margin: 0px 32px 20px 32px;
+    padding: 0px 32px 20px 32px;
 }
 
 .PO a{
     color: #F58A07;
-    font-weight: 500;
-    line-height: 17.04px;
-    margin-left: 32px;
+    padding-left: 32px;
 }
 
 .PO a:after{
@@ -229,10 +224,8 @@ footer {
 
 .part1 .p1{
     font-size: 36px;
-    font-weight: 600;
     line-height: 44px;
     width: 351px;
-    height: 88px;
     margin: 32px 0;
 }
 
@@ -240,32 +233,13 @@ footer {
     padding: 0 23px 84px 0;
 }
 
-.p2{
-    font-weight: 500;
-    line-height: 24px;
-}
-
 .p3{
     font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
     margin-bottom: 26px;
 }
 
 .p4{
-    font-weight: 500;
-    line-height: 24px;
     padding-bottom: 16px;
-}
-
-.part4 a{
-    background: #F58A07;
-    border-radius: 31px;
-    padding: 18px 32px;
-}
-
-.inside-12{
-    margin-top: 104px;
 }
 
 .box1{
@@ -306,4 +280,3 @@ button{
 span{
     margin-right: 32px;
 }
-

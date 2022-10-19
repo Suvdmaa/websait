@@ -32,6 +32,11 @@ header nav ul li {
     line-height: 24px;
 }
 
+header nav ul li a{
+    text-decoration: none;
+    color: #394149;
+}
+
 header nav ul li:last-child{
     color: #F58A07;
     background: rgb(245, 138, 7, 0.1);
@@ -65,14 +70,11 @@ main{
 }
 
 .man{
-    width: 32px;
     height: 32px;
 }
 .pp{
     color: #394149;
-    font-weight: 400;
     line-height: 32px;
-    opacity: 0.87;
     margin: 0 10px 30px 10px;
     opacity: 0.87;
 }
@@ -95,7 +97,6 @@ main{
 
 .sm{
     color: #5B5B5B;
-    font-weight: 500;
     line-height: 28px;
     margin-bottom: 24px;
 }
@@ -138,7 +139,6 @@ footer {
 }
 
 .p2{
-    font-weight: 500;
     line-height: 24px;
 }
 
@@ -150,7 +150,6 @@ footer {
 }
 
 .p4{
-    font-weight: 500;
     line-height: 24px;
     padding-bottom: 16px;
 }
@@ -159,10 +158,6 @@ footer {
     background: #F58A07;
     border-radius: 31px;
     padding: 18px 32px;
-}
-
-.inside-12{
-    margin-top: 104px;
 }
 
 .box1{
