@@ -35,6 +35,8 @@ header nav ul li {
 header nav ul li a{
     text-decoration: none;
     color: #394149;
+    padding: 0.25rem;
+    transition: color .3s ease-in-out;
 }
 
 header nav ul li:last-child{
@@ -42,6 +44,11 @@ header nav ul li:last-child{
     background: rgb(245, 138, 7, 0.1);
     padding: 10px 25px;
     border-radius: 31px;
+}
+
+header nav ul li a:hover{
+    color: #F58A07;
+    font-size: 20px;
 }
 
 /* Main ----------*/
