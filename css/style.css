@@ -52,7 +52,7 @@ header nav ul li a:hover{
 }
 
 /* Hero Section -----------------------------*/
-.hero {
+.hero{
     background: #DCEAF5;
 }
 
@@ -165,7 +165,7 @@ header nav ul li a:hover{
     margin-left: 10px;
 }
 /* Section 2 --------------------------------*/
-.section2 {
+.section2{
     background: #EDF7FF;
 }
 
@@ -375,27 +375,22 @@ header nav ul li a:hover{
 }
 
 /* Section 5 ------------------------------*/
-.section5 {
-    background-color: #F58A07;
-    background-size: 50% auto;
-    width: 100%;
-}
-
 .whole2{
     display: flex;
     flex: 1;
     height: 518px;
-    max-width: 1280px;
     margin: 5rem auto;
+    max-width: 1900px;
 }
 
-.inside-6 .half-human{
-    width: 640px;
+.half-human{
     height: 518px;
+    width: 900px; 
 }
 
 .inside-7{
     padding: 128px 20px 0 128px;
+    background: #F58A07;
 }
 
 .inside-7 p{
@@ -403,6 +398,7 @@ header nav ul li a:hover{
     font-size: 48px;
     line-height: 56px;
     margin-bottom: 40px;
+    margin-right: 200px;
 }
 
 .inside-7 a {
@@ -485,12 +481,12 @@ header nav ul li a:hover{
 /* Section 7 ----------------------------------*/
 .section7{
     background: #DCEAF5;
-    }
+}
 
 .whole4{
     max-width: 1280px;
     margin: auto;
-    padding: 8% 0;
+    padding: 5% 0;
 }
 
 .inside-10 p{
