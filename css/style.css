@@ -36,14 +36,15 @@ header nav ul li a{
     text-decoration: none;
     color: #394149;
     padding: 0.25rem;
-    transition: color .3s ease-in-out;
+    transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 
-header nav ul li:last-child{
+.lastchild{
     color: #F58A07;
     background: rgb(245, 138, 7, 0.1);
     padding: 10px 25px;
     border-radius: 31px;
+    border-color: transparent;
 }
 
 header nav ul li a:hover{
@@ -185,6 +186,7 @@ header nav ul li a:hover{
     font-size: 36px;
     margin-right: 40px;
     word-spacing: 5px;
+    line-height: 44px;
 }
 
 .AT-1 p{
@@ -377,20 +379,17 @@ header nav ul li a:hover{
 /* Section 5 ------------------------------*/
 .whole2{
     display: flex;
-    flex: 1;
     height: 518px;
     margin: 5rem auto;
-    max-width: 1900px;
-}
+    background-color: #F58A07;
+    background-image: url(../images/experience-image.png);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+} 
 
-.half-human{
-    height: 518px;
-    width: 900px; 
-}
-
-.inside-7{
-    padding: 128px 20px 0 128px;
-    background: #F58A07;
+.wat{
+    width: 100%;
+    padding: 128px 0 0 128px;
 }
 
 .inside-7 p{
@@ -399,9 +398,10 @@ header nav ul li a:hover{
     line-height: 56px;
     margin-bottom: 40px;
     margin-right: 200px;
+    width: 532px;
 }
 
-.inside-7 a {
+.btn1 {
     color: #F58A07;
     background: #FFFFFF;
     padding: 20px 30px;
@@ -416,6 +416,7 @@ header nav ul li a:hover{
 
 .whole3{
     display: flex;
+    flex: 1;
 }
 
 .inside-8{
@@ -605,7 +606,7 @@ footer {
     border-radius: 31px;
 }
 
-button{
+.registerbtn{
     padding: 18px 32px;
     border-radius: 31px;
     color: #FFFFFF;

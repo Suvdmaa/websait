@@ -22,7 +22,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    align-items: center;;
+    align-items: center;
 }
 
 header nav ul li {
@@ -36,10 +36,10 @@ header nav ul li a{
     text-decoration: none;
     color: #394149;
     padding: 0.25rem;
-    transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out, font-size 0.5s ease-in-out;
 }
 
-header nav ul li:last-child{
+.lastchild{
     color: #F58A07;
     background: rgb(245, 138, 7, 0.1);
     padding: 10px 25px;
@@ -238,7 +238,7 @@ footer {
     border-radius: 31px;
 }
 
-button{
+.registerbtn{
     padding: 18px 32px;
     border-radius: 31px;
     color: #FFFFFF;
