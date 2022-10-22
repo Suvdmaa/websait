@@ -44,6 +44,7 @@ header nav ul li a{
     background: rgb(245, 138, 7, 0.1);
     padding: 10px 25px;
     border-radius: 31px;
+    border-color: transparent;
 }
 
 header nav ul li a:hover{
