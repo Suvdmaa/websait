@@ -105,6 +105,10 @@ header nav ul li a:hover{
 .hero1 .top-3 .logo {
     margin-right: 20px;
 }
+
+.hero2{
+    margin-bottom: -6px;
+}
 /* Section1 ----------------------------------*/
 .section1 {
     max-width: 1280px;
